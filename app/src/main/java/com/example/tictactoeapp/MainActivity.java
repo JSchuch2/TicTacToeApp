@@ -413,26 +413,412 @@ public class MainActivity extends AppCompatActivity
         //Tests after every click if a tie has occurred
         if (comparer[counterHolder] != null && counterHolder == 8)
         {
-            new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
-                    .setMessage("Wow a Tie! No one wins!")
-                    .setCancelable(false)
-                    .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            blockOne.setImageBitmap(grayStart);
-                            blockTwo.setImageBitmap(grayStart);
-                            blockThree.setImageBitmap(grayStart);
-                            blockFour.setImageBitmap(grayStart);
-                            blockFive.setImageBitmap(grayStart);
-                            blockSix.setImageBitmap(grayStart);
-                            blockSeven.setImageBitmap(grayStart);
-                            blockEight.setImageBitmap(grayStart);
-                            blockNine.setImageBitmap(grayStart);
-                        }
-                    }).show();
 
-            Arrays.fill(comparer, null);
-            counterHolder = 0;
+            if (comparer[0] == xStart && comparer[1] == xStart && comparer[2] == xStart)
+            {
+                //Player x wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player X won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[0] == oStart && comparer[1] == oStart && comparer[2] == oStart)
+            {
+                //Player o wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player O won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[3] == xStart && comparer[4] == xStart && comparer[5] == xStart)
+            {
+                //Player x wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player X won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[3] == oStart && comparer[4] == oStart && comparer[5] == oStart)
+            {
+                //Player o wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player O won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[6] == xStart && comparer[7] == xStart && comparer[8] == xStart)
+            {
+                //Player x wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player X won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[6] == oStart && comparer[7] == oStart && comparer[8] == oStart)
+            {
+                //Player o wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player O won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[0] == xStart && comparer[3] == xStart && comparer[6] == xStart)
+            {
+                //Player x wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player X won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[0] == oStart && comparer[3] == oStart && comparer[6] == oStart)
+            {
+                //Player o wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player O won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[1] == xStart && comparer[4] == xStart && comparer[7] == xStart)
+            {
+                //Player x wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player X won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[1] == oStart && comparer[4] == oStart && comparer[7] == oStart)
+            {
+                //Player o wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player O won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[2] == xStart && comparer[5] == xStart && comparer[8] == xStart)
+            {
+                //Player x wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player X won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[2] == oStart && comparer[5] == oStart && comparer[8] == oStart)
+            {
+                //Player o wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player O won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[0] == xStart && comparer[4] == xStart && comparer[8] == xStart)
+            {
+                //Player x wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player X won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[0] == oStart && comparer[4] == oStart && comparer[8] == oStart)
+            {
+                //Player o wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player O won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[2] == xStart && comparer[4] == xStart && comparer[6] == xStart)
+            {
+                //Player x wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player X won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else if (comparer[2] == oStart && comparer[4] == oStart && comparer[6] == oStart)
+            {
+                //Player o wins
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Player O won!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
+            else
+            {
+                new AlertDialog.Builder(this).setTitle("Tic-Tac-Toe")
+                        .setMessage("Wow a Tie! No one wins!")
+                        .setCancelable(false)
+                        .setPositiveButton("Play Again!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                blockOne.setImageBitmap(grayStart);
+                                blockTwo.setImageBitmap(grayStart);
+                                blockThree.setImageBitmap(grayStart);
+                                blockFour.setImageBitmap(grayStart);
+                                blockFive.setImageBitmap(grayStart);
+                                blockSix.setImageBitmap(grayStart);
+                                blockSeven.setImageBitmap(grayStart);
+                                blockEight.setImageBitmap(grayStart);
+                                blockNine.setImageBitmap(grayStart);
+                            }
+                        }).show();
+
+                Arrays.fill(comparer, null);
+                counterHolder = 0;
+            }
         }
         else
         {
