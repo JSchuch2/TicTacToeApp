@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tictacTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="128dp"
+        android:text="Tic-Tac-Toe"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/backgroundOfBoard"
+        android:layout_width="378dp"
+        android:layout_height="378dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tictacTitle"
+        app:layout_constraintVertical_bias="0.513" />
+
+    <ImageView
+        android:id="@+id/firstBlock"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tictacTitle"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/secondBlock"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="17dp"
+        app:layout_constraintEnd_toStartOf="@+id/thirdBlock"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/firstBlock"
+        app:layout_constraintTop_toBottomOf="@+id/tictacTitle"
+        />
+
+    <ImageView
+        android:id="@+id/thirdBlock"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tictacTitle"
+        />
+
+    <ImageView
+        android:id="@+id/fourthBlock"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstBlock"
+        />
+
+    <ImageView
+        android:id="@+id/fifthBlock"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="17dp"
+        app:layout_constraintEnd_toStartOf="@+id/sixthBlock"
+        app:layout_constraintStart_toEndOf="@+id/fourthBlock"
+        app:layout_constraintTop_toBottomOf="@+id/secondBlock"
+        />
+
+    <ImageView
+        android:id="@+id/sixthBlock"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdBlock"
+        />
+
+    <ImageView
+        android:id="@+id/seventhBlock"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fourthBlock" />
+
+    <ImageView
+        android:id="@+id/eightBlock"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ninthBlock"
+        app:layout_constraintStart_toEndOf="@+id/seventhBlock"
+        app:layout_constraintTop_toBottomOf="@+id/fifthBlock" />
+
+    <ImageView
+        android:id="@+id/ninthBlock"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sixthBlock" />
+
+    <TextView
+        android:id="@+id/playersturnTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="35dp"
+        android:text="Player x's Turn!"
+        app:layout_constraintBottom_toTopOf="@+id/secondBlock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tictacTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>
