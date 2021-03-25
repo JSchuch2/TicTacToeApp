@@ -409,6 +409,9 @@ public class MainActivity extends AppCompatActivity
         final ImageView blockSeven = findViewById(R.id.seventhBlock);
         final ImageView blockEight = findViewById(R.id.eightBlock);
         final ImageView blockNine = findViewById(R.id.ninthBlock);
+        final TextView playersTurn = findViewById(R.id.playersturnTextView);
+
+
 
         //Tests after every click if a tie has occurred
         if (comparer[counterHolder] != null && counterHolder == 8)
@@ -432,6 +435,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -456,6 +461,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -480,6 +487,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -504,6 +513,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -528,6 +539,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -552,6 +565,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -576,6 +591,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -600,6 +617,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -624,6 +643,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -648,6 +669,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -672,6 +695,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
                 Arrays.fill(comparer, null);
@@ -695,6 +720,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
                 Arrays.fill(comparer, null);
@@ -718,6 +745,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -742,6 +771,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -766,6 +797,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -790,6 +823,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -813,6 +848,8 @@ public class MainActivity extends AppCompatActivity
                                 blockSeven.setImageBitmap(grayStart);
                                 blockEight.setImageBitmap(grayStart);
                                 blockNine.setImageBitmap(grayStart);
+                                currentPlayer = true;
+                                playersTurn.setText("Player x's Turn!");
                             }
                         }).show();
 
@@ -842,6 +879,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
@@ -866,6 +905,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
@@ -890,6 +931,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
@@ -914,6 +957,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
@@ -938,6 +983,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
@@ -962,6 +1009,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
@@ -986,6 +1035,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
@@ -1010,6 +1061,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
@@ -1034,6 +1087,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
@@ -1058,6 +1113,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
@@ -1082,6 +1139,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
             Arrays.fill(comparer, null);
@@ -1105,6 +1164,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
             Arrays.fill(comparer, null);
@@ -1128,6 +1189,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
@@ -1152,6 +1215,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
@@ -1176,6 +1241,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
@@ -1200,6 +1267,8 @@ public class MainActivity extends AppCompatActivity
                             blockSeven.setImageBitmap(grayStart);
                             blockEight.setImageBitmap(grayStart);
                             blockNine.setImageBitmap(grayStart);
+                            currentPlayer = true;
+                            playersTurn.setText("Player x's Turn!");
                         }
                     }).show();
 
