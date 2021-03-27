@@ -9,106 +9,89 @@
     <TextView
         android:id="@+id/tictacTitle"
         android:layout_width="wrap_content"
+        android:textStyle="bold"
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"
         android:layout_marginTop="55dp"
         android:layout_marginEnd="128dp"
         android:text="Tic-Tac-Toe"
-        android:textSize="30sp"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/backgroundOfBoard"
-        android:layout_width="378dp"
-        android:layout_height="378dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="114dp"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="370dp"
+        android:layout_height="362dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tictacTitle"
-        app:layout_constraintVertical_bias="0.513" />
-
-    <ImageView
-        android:id="@+id/firstBlock"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="120dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tictacTitle"
-        />
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <ImageView
         android:id="@+id/secondBlock"
         android:layout_width="115dp"
         android:layout_height="115dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="17dp"
+        android:layout_marginTop="252dp"
         app:layout_constraintEnd_toStartOf="@+id/thirdBlock"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/firstBlock"
-        app:layout_constraintTop_toBottomOf="@+id/tictacTitle"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/thirdBlock"
         android:layout_width="115dp"
         android:layout_height="115dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="25dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tictacTitle"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/fourthBlock"
+        android:id="@+id/firstBlock"
         android:layout_width="115dp"
         android:layout_height="115dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="252dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstBlock"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/fifthBlock"
         android:layout_width="115dp"
         android:layout_height="115dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="17dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toStartOf="@+id/sixthBlock"
         app:layout_constraintStart_toEndOf="@+id/fourthBlock"
-        app:layout_constraintTop_toBottomOf="@+id/secondBlock"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/secondBlock" />
+
+    <ImageView
+        android:id="@+id/fourthBlock"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstBlock" />
 
     <ImageView
         android:id="@+id/sixthBlock"
         android:layout_width="115dp"
         android:layout_height="115dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="25dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/thirdBlock"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/thirdBlock" />
 
     <ImageView
         android:id="@+id/seventhBlock"
         android:layout_width="115dp"
         android:layout_height="115dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fourthBlock" />
 
@@ -116,11 +99,7 @@
         android:id="@+id/eightBlock"
         android:layout_width="115dp"
         android:layout_height="115dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toStartOf="@+id/ninthBlock"
         app:layout_constraintStart_toEndOf="@+id/seventhBlock"
         app:layout_constraintTop_toBottomOf="@+id/fifthBlock" />
@@ -129,10 +108,8 @@
         android:id="@+id/ninthBlock"
         android:layout_width="115dp"
         android:layout_height="115dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sixthBlock" />
 
@@ -141,11 +118,45 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="176dp"
-        android:layout_marginTop="66dp"
+        android:layout_marginTop="17dp"
         android:layout_marginEnd="177dp"
         android:layout_marginBottom="35dp"
         android:text="Player x's Turn!"
         app:layout_constraintBottom_toTopOf="@+id/secondBlock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forceEndGameButton" />
+
+    <Button
+        android:id="@+id/AIButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="20dp"
+        android:text="Start AI Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/LocalButton" />
+
+    <Button
+        android:id="@+id/LocalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="20dp"
+        android:text="Start Local Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/forceEndGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="162dp"
+        android:text="Force End Game"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tictacTitle" />

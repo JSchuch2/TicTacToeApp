@@ -2,4 +2,18 @@
     <string name="app_name">TicTacToeApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string
+        name="playerOTurnNotice"
+        >Player o\'s Turn!</string>
+    <string
+        name="playerXTurnNotice"
+        >Player x\'s Turn!</string>
+
+    <string
+        name="AI_Game_Title"
+        >AI Game</string>
+
+    <string
+        name="Local_Game_Title"
+        >Local Game</string>
 </resources>
